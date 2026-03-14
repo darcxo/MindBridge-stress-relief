@@ -7,8 +7,7 @@ from typing import Optional
 from datetime import datetime, timedelta
 import random, pathlib, httpx, uvicorn, os
 
-from database import get_db, init_db
-
+from backend.database import get_db, init_db
 # ══════════════════════════════════════════════════════════════════════════════
 # CONFIG  ← API key is read from environment variable (never hardcoded)
 #           Set GROQ_API_KEY in Render Dashboard → Environment
