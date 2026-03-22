@@ -17,7 +17,7 @@ mindbridge/
 │   ├── community.html
 │   ├── resources.html
 │   └── api.js
-├── render.yaml          ← Render auto-deploy config
+├── render.yaml       
 └── .gitignore
 ```
 
