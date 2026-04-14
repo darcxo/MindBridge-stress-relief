@@ -12,7 +12,7 @@ from backend.database import get_db, init_db
 # CONFIG  ← API key is read from environment variable (never hardcoded)
 #           Set GROQ_API_KEY in Render Dashboard → Environment
 # ══════════════════════════════════════════════════════════════════════════════
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
 GROQ_MODEL   = "compound-beta"
 GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions"
 
